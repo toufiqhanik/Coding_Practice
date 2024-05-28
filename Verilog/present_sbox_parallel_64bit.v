@@ -5,11 +5,11 @@
 //its for practice purposes to stay uptodate
 //use on your own risk
 
-//module Present Chipher Sbox*/
-//Note: written in RTL case statement basis
+//module Present Chipher Sbox 64bit*/
+//Note: written in RTL generate basis
 //####################################
 
-module present_sbox_64bit (
+module present_sbox_parallel_64bit (
     input [63:0] in,
 	output [63:0] out);
 	
